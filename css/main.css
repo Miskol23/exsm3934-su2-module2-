@@ -1,0 +1,116 @@
+:root {
+    --basecolor: rgb(255,255,255);
+    background-image: url("../img/smileyface.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: right;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: Bold;
+    font-style: normal;
+    src: url();
+}
+
+p {
+    background-color: var(--basecolor);
+
+    display: inline-block;
+
+    width: 20em;
+    height: 20em;
+
+    padding: 32px solid black;
+
+    border-top: 24px solid blue;
+    border-bottom: 24px solid green;
+    border-left: 24px solid red ;
+    border-right: 24px solid yellow;
+
+    margin: 50px;
+
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/*[class="search-engine-link"] {
+    color: green;
+}*/
+
+.search-engine-link {
+    color: green;
+}
+
+/*[id="duckduckgo-link"] {
+    color: red;
+}*/
+
+#duckduckgo-link {
+    color: red;
+}
+
+/*
+[href*="Duck"] - Anything with "Duck" that is also inside an href
+[href$="Duck" i] - Anything that ends specifically with "Duck" that is also inside an href
+*/
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Open Sans';
+}
+
+p > em + strong {
+    font-family: 'Open Sans';
+}
+
+button:hover {
+    color:red;
+}
+
+button:active {
+    color:green;
+}
+
+li:first-child {
+    color: blue;
+}
+
+li:nth-child(odd) {
+    color: red;
+}
+
+li:last-child {
+    color: green;
+}
+
+li:nth-child(4){
+    color:orange;
+}
+
+p strong:nth-of-type(2) {
+    color: green;
+}
+
+p em:nth-of-type(2){
+    color: red;
+}
+
+p em:last-of-type{
+    color: red;
+}
+
+p::first-letter{
+    font-size: 3em;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    float: left;
+}
+
+
+
+
